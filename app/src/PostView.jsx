@@ -21,7 +21,7 @@ function PostView(){
                 <h1 className="tex-a-c">{post.title}</h1>
                 <h2 className="tex-a-c">{post.subtitle}</h2>
                 <p className="wei-400 col-t tex-1-4">{post.category} | {post.created}</p>
-                <div className="tex-1-8">
+                <div className="tex-1-8 whi-p-l">
                     {post.text}
                 </div>
                 <Comments />
